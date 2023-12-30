@@ -1,3 +1,21 @@
+## V3 Media Pro
+
+## Persyaratan
+Pastikan sistem Anda memenuhi persyaratan berikut sebelum menginstal:
+- PHP versi 8.1 atau yang lebih baru
+- Composer
+
+## Instalasi
+1. Clone repositori ini
+2. Salin file .env.example menjadi .env dan konfigurasi file .env sesuaikan nama database kebutuhan Anda:
+3. composer install
+4. php artisan key:generate
+5. php artisan migrate:fresh --seed
+
+## Menjalankan Aplikasi
+php artisan serve 
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
